@@ -24,7 +24,7 @@ body {
 
 .mørkblå {
   position: absolute;
-  top: 700px;
+  top: 750px;
   left: 0;
   width: 100%;
   height: auto;
@@ -33,7 +33,7 @@ body {
 
 .rosa {
   position: absolute;
-  top: 1500px;
+  top: 1550px;
   left: 0;
   width: 100%;
   max-width: 100%;
@@ -480,6 +480,64 @@ body {
 
 .jordklode {
   animation: rotate-slow 20s linear infinite;
+}
+
+.footer-bar {
+  background: #00509e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2.5rem 3rem;
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+.footer-bar__left,
+.footer-bar__right {
+  display: flex;
+  align-items: center;
+}
+
+.footer-bar__logo {
+  width: 320px;
+  height: auto;
+}
+
+.footer-bar p {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+  flex: 1;
+}
+
+.footer-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-bar a:hover {
+  text-decoration: underline;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .footer-bar {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .footer-bar__logo {
+    width: 220px;
+  }
+
+  .footer-bar p {
+    font-size: 0.9rem;
+  }
 }
 
 @keyframes float {
