@@ -1,0 +1,16 @@
+.footer {
+    background-color: var(--color-bg-dark);
+    text-align: center;
+    padding: 2rem;
+  
+    &__link {
+      color: var(--color-primary);
+      text-decoration: none;
+      font-weight: 600;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Beneath the Surface</title>
+
+    <link rel="stylesheet" href="assets/styles/styles.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/MotionPathPlugin.min.js"></script>
+
+    <!-- JS -->
+    <script defer src="assets/scripts/script.js"></script>
+</head>
+
+<body>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero__sticky">
+
+            <p class="back-link">
+                <a href="../../index.html">← Back to portfolio</a>
+            </p>
+
+            <img class="hero__bird" src="assets/images/part1/bird.svg" alt="Flying bird">
+
+            <div class="hero__beach">
+                <img class="hero__sand" src="assets/images/part1/sand1.png" alt="Ocean sand">
+                <img class="hero__umbrella" src="assets/images/part1/umbrella.svg" alt="Beach umbrella">
+                <img class="hero__sign" src="assets/images/part1/beach.svg" alt="Beach sign">
+                <img class="hero__crab" src="assets/images/part1/crab.svg" alt="Crab on the beach">
+            </div>
+
+            <!-- HERO TEXT -->
+            <div class="hero__content">
+
+                <h1 class="hero__title">
+                    Beneath the Surface
+                </h1>
+
+                <p class="hero__text">
+                    Beneath the waves,
+                    another world begins.
+                </p>
+
+                <p class="hero__scroll">
+                    Scroll to dive in
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="ocean-world">
+
+        <!-- SURFACE -->
+        <section class="surface">
+
+            <div class="bubbles">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <img class="surface__bottle" src="assets/images/part1/bottle.svg"
+                alt="Plastic bottle floating in the ocean">
+
+            <p class="surface__text">
+                Everything we leave behind eventually finds its way here.
+                Plastic drifts across the surface,
+                carried by waves and currents for years.
+                Long before we notice the damage,
+                marine life already feels the consequences.
+            </p>
+
+        </section>
+
+        <!-- SHALLOW OCEAN -->
+        <section class="shallow-ocean">
+
+            <div class="bubbles">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <img class="shallow-ocean__turtle" src="assets/images/part2/turtle.svg" alt="Swimming sea turtle">
+            <img class="shallow-ocean__fish" src="assets/images/part2/fish1.svg" alt="Swimming fish">
+            <img class="shallow-ocean__fish3" src="assets/images/part2/fish3.svg" alt="Colorful tropical fish">
+
+            <p class="shallow-ocean__text">
+                Coral reefs, sea turtles and thousands of species
+                depend on healthy oceans to survive.
+                This underwater world is full of life,
+                movement and beauty —
+                yet it becomes more fragile every day.
+            </p>
+
+        </section>
+
+        <!-- MID OCEAN -->
+        <section class="mid-ocean">
+
+            <div class="bubbles">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <img class="mid-ocean__jellyfish" src="assets/images/part2/jellyfish2.svg" alt="Floating jellyfish">
+
+            <p class="mid-ocean__text">
+                The deeper we go,
+                the ocean becomes quieter and colder.
+                Pollution continues sinking deeper,
+                reaching places humans rarely even see.
+            </p>
+
+        </section>
+
+        <!-- DEEP OCEAN -->
+        <section class="deep-ocean">
+
+            <div class="bubbles">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <img class="deep-ocean__anchor pollution-item" src="assets/images/part3/anchor.svg"
+                alt="Old anchor polluting the ocean" tabindex="0" role="button">
+            <img class="deep-ocean__fishbone pollution-item" src="assets/images/part3/fishbone.svg"
+                alt="Fish skeleton in polluted water" tabindex="0" role="button">
+            <img class="deep-ocean__oil pollution-item" src="assets/images/part3/oil.svg" alt="Oil spill pollution"
+                tabindex="0" role="button">
+            <img class="deep-ocean__dirt pollution-item" src="assets/images/part3/dirt.svg"
+                alt="Ocean waste and pollution" tabindex="0" role="button">
+            <img class="deep-ocean__bandage pollution-item" src="assets/images/part3/bandage.svg"
+                alt="Human waste in the ocean" tabindex="0" role="button">
+            <img class="deep-ocean__garbagecan" src="assets/images/part3/garbagecan.svg" alt="Garbage can">
+            <img class="deep-ocean__fishes" src="assets/images/part3/fishes.svg" alt="Group of swimming fish">
+            <img class="deep-ocean__octopus" src="assets/images/part3/octopus.svg" alt="Swimming octopus">
+            <img class="deep-ocean__dolphin" src="assets/images/part3/dolphin.svg" alt="Swimming dolphin">
+
+            <p class="deep-ocean__text">
+                What sinks beneath the surface
+                doesn’t disappear.
+                The deepest parts of the ocean
+                have become a graveyard for human waste.
+            </p>
+
+            <div class="deep-ocean__hint" aria-live="polite">
+                Click the pollution to clean the ocean.
+            </div>
+
+            <div class="cleanup-message" aria-live="polite">
+                Good job! You helped save the ocean 🌊
+            </div>
+
+        </section>
+
+        <!-- ENDING -->
+        <section class="ending">
+
+            <div class="bubbles">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <img class="ending__nemo" src="assets/images/part4/nemo.svg" alt="Swimming clownfish">
+
+            <h2 class="ending__title">
+                The ocean cannot protect itself alone.
+            </h2>
+
+        </section>
+
+        <!-- ENDING BOTTOM -->
+        <section class="ending-bottom">
+            <img class="ending-bottom__drop" src="assets/images/part4/drop.svg" alt="Water drop">
+            <img class="ending-bottom__eco" src="assets/images/part4/eco.svg" alt="Eco symbol">
+
+            <p class="ending-bottom__text">
+                Together, we can protect marine life
+                and restore our oceans for future generations.
+                The future of our oceans
+                depends on what we do next.
+            </p>
+
+            <button class="ending-bottom__button">
+                Protect the Ocean
+            </button>
+
+            <img class="ending-bottom__seaweed" src="assets/images/part4/seaweed-pink.svg"
+                alt="Seaweed at the bottom of the ocean">
+            <img class="ending-bottom__starfish" src="assets/images/part4/starfish.svg"
+                alt="Starfish on the ocean floor">
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        Created for UN Sustainable Development Goal 14:
+        Life Below Water.
+    </footer>
+
+</body>
+
+</html>

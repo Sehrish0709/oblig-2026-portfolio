@@ -1,0 +1,88 @@
+.ending-bottom {
+  position: relative;
+  min-height: 140vh;
+  overflow: hidden;
+}
+
+.ending-bottom__drop {
+  position: absolute;
+  width: 100px;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+}
+
+.ending-bottom__eco {
+  position: absolute;
+  width: 130px;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ending-bottom__text {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 650px;
+  text-align: center;
+  line-height: 1.8;
+  font-size: clamp(1.1rem, 2.3vw, 1.6rem);
+}
+
+.ending-bottom__button {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 999px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+.ending-bottom__button:hover {
+  transform:
+    translateX(-50%)
+    scale(1.05);
+
+  background: #f5f5f5;
+}
+
+.ending-bottom__seaweed {
+  position: absolute;
+  width: 250px;
+  bottom: 0;
+  left: 10%;
+  z-index: 5;
+  animation:
+    seaweedWave 4s ease-in-out infinite;
+}
+
+.ending-bottom__starfish {
+  position: absolute;
+  width: 120px;
+  bottom: 5%;
+  right: 20%;
+  rotate: -12deg;
+}
+
+.ending-bottom__eco,
+.ending-bottom__text,
+.ending-bottom__button {
+  opacity: 0;
+}
+
+.ending-bottom__button:focus {
+  outline: 3px solid white;
+  outline-offset: 4px;
+}

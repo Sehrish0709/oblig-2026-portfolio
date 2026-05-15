@@ -1,0 +1,27 @@
+.ending {
+  position: relative;
+  min-height: 140vh;
+  overflow: hidden;
+}
+
+.ending__title {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: clamp(3rem, 6vw, 5rem);
+  line-height: 1.1;
+  z-index: 20;
+}
+
+.ending__nemo {
+  position: absolute;
+  width: 170px;
+  left: 20%;
+  top: 65%;
+  z-index: 15;
+}

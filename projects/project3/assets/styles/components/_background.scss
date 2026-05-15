@@ -1,0 +1,42 @@
+.ocean-world {
+  position: relative;
+  margin-top: -100vh;
+  z-index: 5;
+  min-height: 700vh;
+  background-image: url("../images/hav2.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+  filter: saturate(1.05);
+}
+
+.ocean-world__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.surface,
+.shallow-ocean,
+.mid-ocean,
+.deep-ocean,
+.ending {
+  position: relative;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  min-height: 120vh;
+}
+
+.surface img,
+.shallow-ocean img,
+.mid-ocean img,
+.deep-ocean img,
+.ending img {
+  position: absolute;
+  height: auto;
+  z-index: 5;
+}

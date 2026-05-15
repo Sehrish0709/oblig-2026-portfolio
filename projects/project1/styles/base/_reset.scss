@@ -1,0 +1,15 @@
+/* Enkel reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: var(--color-bg-dark);
+    color: var(--color-light);
+    font-size: var(--font-base);
+    line-height: 1.6;
+  }
+  

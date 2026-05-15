@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 2 – Reflection</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+
+<body>
+
+  <section class="about card">
+    <h2>Project 2 – Animated Poster</h2>
+
+    <p>
+      In this project, I recreated the NTNU poster “Webben og planeten vår”
+      using HTML, SCSS, SVG elements, and CSS animations.
+      The goal was to make the poster look as close to the original design as possible
+      while also adding movement and animations to make it feel more interactive.
+    </p>
+
+    <p>
+      I used many separate SVG elements and positioned them with
+      <code>position: absolute</code>, together with
+      <code>top</code>, <code>left</code>, and <code>z-index</code>.
+      This helped me recreate the visual structure and place elements accurately
+      around the poster.
+    </p>
+
+    <p>
+      I created different animations using CSS <code>@keyframes</code>.
+      For example, the Wi-Fi icons blink, the clouds and gas elements float,
+      and the sun uses a pulsing effect.
+      I also added rotation animations to some elements to create more movement
+      across the poster.
+    </p>
+
+    <p>
+      The animations help guide the user’s attention and make the poster feel
+      more alive without changing the original design too much.
+    </p>
+
+    <p>
+      To improve responsiveness, I used <code>clamp()</code>,
+      percentages, scaling, and media queries.
+      Because many elements use absolute positioning,
+      responsiveness was one of the biggest challenges in the project.
+      Even though some elements still need adjustments on very small screens,
+      the layout works well in the main desktop poster view.
+    </p>
+
+    <p>
+      I used SCSS to organise the styles and make the code easier to structure
+      and maintain.
+      I also used fluid typography to make text scale better across different
+      screen sizes.
+    </p>
+
+    <p>
+      Through this project, I learned more about SVG implementation,
+      CSS animations, responsive design, and how to recreate a detailed
+      visual design using modern CSS techniques.
+    </p>
+
+    <p>
+      You can view the original version here:
+      <a href="https://github.com/idg1293-2025/oblig-2-Sehrish0709" target="_blank">Original Project 2 GitHub</a>
+    </p>
+  </section>
+  <section class="project-report">
+    <a href="../projects/project2/index.html" class="project-button">Open Live Project</a>
+
+    <div class="about__back">
+      <a href="../about.html" class="button button--primary">← Back to Project Overview
+      </a>
+    </div>
+
+    <div class="about__back">
+      <a href="../index.html" class="button button--primary">← Back to Portfolio</a>
+    </div>
+  </section>
+
+</body>
+
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project3 - Reflection</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <h1>Project 3 – Scroll-Driven Storytelling</h1>
+        <p>SDG 14: Life Below Water</p>
+    </header>
+
+    <main class="main-layout">
+
+        <section class="project-report">
+
+            <h1>Project Overview</h1>
+
+            <p>
+                This project is an improved version of a previous scroll-driven storytelling assignment
+                created for the course IDG1293 Advanced CSS. The goal of the assignment was to create an
+                interactive and animated web experience based on one of the United Nations Sustainable
+                Development Goals.
+            </p>
+
+            <p>
+                I chose SDG 14: Life Below Water because ocean pollution and climate impact on marine
+                ecosystems is an important global issue that affects both nature and people around the world.
+            </p>
+
+            <p>
+                The project was redesigned and significantly improved from the original version to create
+                a more immersive storytelling experience. Many of the visual assets and scene compositions
+                were recreated and redesigned in Adobe software to create a more cinematic underwater
+                atmosphere.
+            </p>
+
+            <h2>Narrative and Scroll Storytelling</h2>
+
+            <p>
+                The storytelling is built around a visual journey through different ocean depths. The user
+                begins above the surface in a calm beach environment before gradually diving deeper into
+                the ocean.
+            </p>
+
+            <p>
+                The project is divided into several scenes:
+            </p>
+
+            <ul>
+                <li>Hero section and beach environment</li>
+                <li>Surface ocean</li>
+                <li>Shallow ocean</li>
+                <li>Mid ocean</li>
+                <li>Deep ocean</li>
+                <li>Ending and call-to-action sections</li>
+            </ul>
+
+            <p>
+                Each section represents a different emotional stage in the story. The project starts with
+                peaceful visuals and marine life before introducing pollution, damaged ecosystems, and
+                human waste in the deep ocean.
+            </p>
+
+            <h2>Animations and Interactive Elements</h2>
+
+            <p>
+                The project uses a combination of CSS animations, GSAP, ScrollTrigger, SVG graphics,
+                and JavaScript interactions.
+            </p>
+
+            <p>
+                GSAP and ScrollTrigger were used to create smooth scroll-based animations and reveal
+                effects throughout the project.
+            </p>
+
+            <ul>
+                <li>Floating jellyfish animations</li>
+                <li>Moving dolphin and fish animations</li>
+                <li>Scroll-triggered reveal effects</li>
+                <li>Boat movement and ocean motion</li>
+                <li>Bubble animations</li>
+                <li>Hover effects on pollution items</li>
+            </ul>
+
+            <p>
+                One of the biggest improvements in the project is the interactive deep-ocean cleanup
+                section. Users can click on pollution items such as anchors, oil spills, garbage, and
+                fish bones to clean the ocean.
+            </p>
+
+            <p>
+                When all pollution has been removed, marine life returns to the scene through animated
+                fish, dolphins, and octopus graphics. This interaction makes the user more involved in
+                the storytelling experience instead of only scrolling passively through the website.
+            </p>
+
+            <h2>Sass Architecture and BEM Methodology</h2>
+
+            <p>
+                The project was reorganized using Sass partials and BEM naming conventions to improve
+                structure and maintainability.
+            </p>
+
+            <p>
+                The CSS architecture was divided into:
+            </p>
+
+            <ul>
+                <li>base/</li>
+                <li>components/</li>
+                <li>utilities/</li>
+            </ul>
+
+            <p>
+                Separate SCSS partials were created for different sections such as:
+            </p>
+
+            <ul>
+                <li>_surface.scss</li>
+                <li>_shallow.scss</li>
+                <li>_mid.scss</li>
+                <li>_pollution.scss</li>
+                <li>_ending.scss</li>
+                <li>_animations.scss</li>
+                <li>_mediaqueries.scss</li>
+            </ul>
+
+            <p>
+                BEM methodology was used throughout the project to create scalable and readable class
+                names such as hero__title, shallow-ocean__fish, and deep-ocean__garbagecan.
+            </p>
+
+            <h2>Accessibility and Responsiveness</h2>
+
+            <p>
+                Accessibility and responsive design were important considerations during development.
+            </p>
+
+            <ul>
+                <li>Semantic HTML structure</li>
+                <li>Descriptive alt text for SVG images</li>
+                <li>Keyboard navigation using tabindex</li>
+                <li>aria-live regions for dynamic feedback</li>
+                <li>Hover and focus states</li>
+                <li>prefers-reduced-motion media query</li>
+            </ul>
+
+            <p>
+                Responsive media queries were added to improve scaling, typography, SVG positioning,
+                and spacing across desktop and mobile devices.
+            </p>
+
+            <h2>Performance Optimisation</h2>
+
+            <p>
+                SVG graphics were used instead of heavier image formats where possible to improve
+                performance. Simpler animations were created with CSS instead of JavaScript when
+                appropriate, while GSAP was used for more advanced scroll interactions.
+            </p>
+
+            <p>
+                ScrollTrigger animations were only activated when needed to improve scroll performance
+                and reduce unnecessary rendering.
+            </p>
+
+            <h2>Reflection and Improvements</h2>
+
+            <p>
+                The improved version of the project is significantly more advanced than the original
+                assignment. The original version focused more on separate informational sections,
+                while the new version was redesigned into a connected and immersive storytelling
+                experience.
+            </p>
+
+            <ul>
+                <li>More advanced animations</li>
+                <li>Improved storytelling structure</li>
+                <li>Interactive cleanup mechanics</li>
+                <li>Better responsiveness</li>
+                <li>Accessibility improvements</li>
+                <li>Reorganized Sass architecture</li>
+                <li>More cinematic visual design</li>
+            </ul>
+
+            <p>
+                The project evolved from a simple informational website into a more emotional and
+                interactive storytelling experience focused on environmental awareness.
+            </p>
+
+            <h2>Challenges and Problem Solving</h2>
+
+            <p>
+                One of the biggest challenges during development was positioning SVG elements across
+                different screen sizes while maintaining the visual composition of the scenes.
+            </p>
+
+            <p>
+                Another challenge was combining multiple animations, interactions, and responsive layouts
+                without breaking the storytelling flow.
+            </p>
+
+            <p>
+                Through testing and iteration, the final result became much more stable, responsive,
+                and visually immersive.
+            </p>
+
+            <h2>Technologies Used</h2>
+
+            <ul>
+                <li>HTML5</li>
+                <li>SCSS / Sass</li>
+                <li>BEM Methodology</li>
+                <li>JavaScript</li>
+                <li>GSAP</li>
+                <li>ScrollTrigger</li>
+                <li>SVG Graphics</li>
+                <li>Intersection Observer</li>
+                <li>CSS Keyframe Animations</li>
+                <li>Adobe Illustrator and Adobe Express</li>
+            </ul>
+
+            <a href="../projects/project3/index.html" class="project-button">Open Live Project</a>
+
+            <div class="about__back">
+                <a href="../about.html">
+                    ← Back to Project Overview
+                </a>
+            </div>
+
+            <div class="about__back">
+                <a href="../index.html">
+                    ← Back to Portfolio
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>

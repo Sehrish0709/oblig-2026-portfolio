@@ -1,0 +1,123 @@
+@media (max-width: 768px) {
+
+  .hero__title {
+    font-size: 3rem;
+  }
+
+  .hero__text,
+  .surface__text,
+  .shallow-ocean__text,
+  .mid-ocean__text,
+  .deep-ocean__text,
+  .ending-bottom__text {
+    width: 90%;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .ending__title {
+    font-size: 3rem;
+  }
+
+  .ending-bottom__button {
+    padding: 0.8rem 1.5rem;
+  }
+
+  .deep-ocean__anchor {
+    width: 120px;
+    bottom: 30%;
+    left: 5%;
+  }
+
+  .deep-ocean__fishbone {
+    width: 80px;
+    bottom: 22%;
+    right: 8%;
+  }
+
+  .deep-ocean__oil {
+    width: 100px;
+    top: 30%;
+    right: 15%;
+  }
+
+  .deep-ocean__dirt {
+    width: 120px;
+    top: 30%;
+    left: 15%;
+  }
+
+  .deep-ocean__bandage {
+    width: 60px;
+    bottom: 20%;
+    left: 50%;
+  }
+
+  .cleanup-message {
+    width: 80%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .shallow-ocean__turtle {
+    width: 220px;
+  }
+
+  .mid-ocean__jellyfish {
+    width: 140px;
+  }
+
+  .surface__bottle {
+    width: 120px;
+  }
+
+  .hero__umbrella {
+    width: 120px;
+  }
+
+  .hero__sign {
+    width: 90px;
+  }
+
+  .hero,
+  .surface,
+  .shallow-ocean,
+  .mid-ocean,
+  .deep-ocean,
+  .ending {
+    min-height: 100vh;
+  }
+
+  .ocean-world {
+    background-size: cover;
+  }
+
+  .ending-bottom {
+    min-height: 120vh;
+  }
+
+  .ending__nemo {
+    width: 120px;
+    left: 5%;
+    top: 70%;
+  }
+
+  .ending-bottom__drop {
+    width: 70px;
+  }
+
+  .ending-bottom__eco {
+    width: 90px;
+    top: 32%;
+  }
+
+  .ending-bottom__seaweed {
+    width: 160px;
+    left: 0;
+  }
+
+  .ending-bottom__starfish {
+    width: 70px;
+    right: 10%;
+  }
+}

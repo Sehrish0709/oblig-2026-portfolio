@@ -1,0 +1,105 @@
+.hero {
+  position: relative;
+  height: 200vh;
+  background-image: url("../images/part1/tihi.png");
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.hero__sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero__sand {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  z-index: 3;
+}
+
+.hero__content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10;
+  width: 90%;
+}
+
+.hero__title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: clamp(3rem, 7vw, 6rem);
+  letter-spacing: 4px;
+  margin-top: 1.5rem;
+  text-shadow:
+    0 0 20px rgba(0,0,0,0.35),
+    0 0 40px rgba(0,0,0,0.2);
+}
+
+.hero__text {
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  line-height: 3;
+  color: rgba(255,255,255,0.95);
+  text-shadow:
+    0 2px 10px rgba(0,0,0,0.5);
+}
+
+.hero__scroll {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow:
+    0 2px 10px rgba(0,0,0,0.6);
+
+  color: rgba(255,255,255,0.95);
+}
+
+.hero__bird {
+  position: absolute;
+  width: 70px;
+  top: 10%;
+  left: -10%;
+  z-index: 10;
+}
+
+.hero__umbrella {
+  position: absolute;
+  width: 200px;
+  bottom: 4%;
+  left: 10%;
+  z-index: 10;
+}
+
+.hero__sign {
+  position: absolute;
+  width: 140px;
+  bottom: 5%;
+  right: 8%;
+  z-index: 10;
+}
+
+.hero__crab {
+  position: absolute;
+  width: 50px;
+  bottom: 8%;
+  right: 18%;
+  z-index: 10;
+}
+
+.hero__beach {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+}
